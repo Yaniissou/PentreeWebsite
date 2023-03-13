@@ -184,6 +184,7 @@ main {
 
 .text p {
   width: 100%;
+  color: rgb(110, 110, 110)
 }
 
 .text {
@@ -191,13 +192,18 @@ main {
 }
 
 .image {
-  width: 50%;
+  width: 180%;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-left: 5%;
+  
+
 }
 
 .image img {
-  width: 800px;
+  
+  height: 670px;
+  
 }
 
