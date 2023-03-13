@@ -65,7 +65,7 @@ html, body {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: #000;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -144,31 +144,50 @@ html, body {
   }
 }
 
-.FirstSec h1{
-font-family: 'Pacifico', sans-serif
+main {
+  margin-top: 120px;
 }
-.FirstSec{
- display:flex;
- font-family: Times;
- flex-direction: row;
- justify-content: space-around;
- border-bottom: solid;
- padding-bottom: 4em;
+
+.heropage {
+  display: flex;
 }
-.FirstSec .Paysage {
-margin-top:2em;
-width:400px;
+
+.whoarewe {
+  width: 60%;
+  background-color: red;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-.Ensemble{
-display: flex;
-flex-direction: column;
-max-width: 300px;
+
+.whoarewe p {
+  width: 30%;
 }
-.PenFirst img {
-width: 120px;
+
+.hproducts {
+  background-color: rebeccapurple;
+  display: flex;
+  width: 100%;
 }
-.PenFirst{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+
+.hproducts img {
+
+  width: 128px;
+  height: 128px;
+
+
+}
+.image {
+  background-color: salmon;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  width: 580px;
+  height: 300px;
+  
 }
