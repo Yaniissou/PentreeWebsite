@@ -157,17 +157,17 @@ main {
   display: flex;
 }
 
-.text {
+.textw {
   
   text-align: left;
 }
 
-.text h1 {
+.textw h1 {
   margin: 0;
   font-size: 80px;
 }
 
-.text p {
+.textw p {
   font-size: 25px;
 }
 
@@ -184,12 +184,12 @@ main {
   height: 350px;
 }
 
-.text p {
+.textw p {
   width: 100%;
   color: grey;
 }
 
-.text {
+.textw {
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -8438,7 +8438,7 @@ textarea.form-control {
     .info-wrap .dbox .icon span {
       font-size: 20px;
       color: #fff; }
-  .info-wrap .dbox .text {
+  .info-wrap .dbox .text { 
     width: calc(100% - 50px); }
 
 @media (min-width: 992px) {
