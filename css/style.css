@@ -8460,7 +8460,7 @@ textarea.form-control {
   position: relative;
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
+  -o-transition: 0.3s;.C
   transition: 0.3s; }
   @media (prefers-reduced-motion: reduce) {
     .btn {
@@ -8511,5 +8511,62 @@ textarea.form-control {
 
   p {
     font-family: 'Courier New', Courier, monospace
+  }
+
+  .SecondeSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    margin-right: 15em;
+    border-bottom: solid;
+    padding-bottom: 5em;
+  }
+  
+  .SecondeSectionPL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 2.5em;
+  
+  }
+  .SecondeSectionDL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+  }
+  .couleur{
+    width:300px;
+    margin-left: 17em;
+  }
+  .Containereuh:hover {
+    transform: scale(1.2); 
+  }
+  .Containereuh {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .Containereuh .text {
+   /* background: rgba(0, 0, 0, 0.8);*/
+   color:black;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 70%;
+  }
+  .thirdSection{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thirdSection h1{
+    font-family:'Source Code Pro', monospace ;
   }
 
