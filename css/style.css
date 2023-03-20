@@ -4,9 +4,20 @@ html, body {
   background-color: #F5FFFA;
 }
 
+ul > li {
+  font-size: 20px;
+}
 
 * {
   box-sizing: border-box;
+}
+
+.logo { 
+  transition: 0.5s;
+}
+.logo:hover {
+  transition: 0.5s;
+    filter: brightness(0) invert(1);
 }
 
 .top-nav img {
@@ -44,7 +55,7 @@ html, body {
 }
 
 .menu > li {
-  margin: 0 1rem;
+  margin: 0 1.5rem;
   overflow: hidden;
 }
 
