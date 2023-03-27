@@ -537,7 +537,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #ffffff;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
