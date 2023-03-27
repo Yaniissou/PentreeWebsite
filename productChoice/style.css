@@ -3,6 +3,7 @@ main {
   background-color: #fdf1ec;
   display: flex;
   align-items: center;
+  height: 90vh;
 }
 
 body {
