@@ -28,7 +28,10 @@ footer a {
   text-decoration:none;
 }
 
-
+footer img{
+    height: 52px;
+    width: 60;
+}
 
 footer a:hover, footer a:focus {
   color: #aaa;
