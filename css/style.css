@@ -8759,6 +8759,11 @@ textarea.form-control {
     flex-direction: column;
   }
   
+  .ourproducts{
+    margin-top: 6.5%;
+    font-family:'Source Code Pro', monospace ;
+  }
+
   .thirdSection h1{
     font-family:'Source Code Pro', monospace ;
   }
@@ -8785,4 +8790,12 @@ textarea.form-control {
       margin-top: 0;
     }
 
+  }
+
+  .heading-section{
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  .mb-4{
+    font-family: 'Alegreya Sans', sans-serif;
   }
