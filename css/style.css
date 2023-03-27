@@ -8654,7 +8654,7 @@ textarea.form-control {
   position: relative;
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;.C
+  -o-transition: 0.3s;
   transition: 0.3s; }
   @media (prefers-reduced-motion: reduce) {
     .btn {
