@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   height: 100%;
-  background-color: #F5FFFA;
+  background-color: #fdf1ec;
 }
 
 ul > li {
@@ -191,7 +191,7 @@ main {
 
 }
 .hproducts img {
-  width: 350px;
+  width: 300px;
   height: 350px;
 }
 
