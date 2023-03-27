@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart UI</title>
+	<link rel="stylesheet" type="text/css" href="css/stylecart.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a4c6e34c06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- nav bar -->
+
+  <nav class="top-nav">
+    <div class="logo"> <a href="./index.html"><img src="./assets/logowithtitle.png" alt="logo" title="Home"></a> </div>
+
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+    </label>    
+   
+        <ul class="menu">
+        
+            <li><a href="./index.html#products">Products</a></li>
+            <li><a href="./index.html#about">About</a></li>  
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        
+        </ul>
+
+    </nav>
+<main>
+    <!-- début container  -->
+   <div class="CartContainer">
+   	   <div class="Header">
+   	   	<h3 class="Heading">Shopping Cart</h3>
+   	   	<h5 class="Action">Remove all</h5>
+   	   </div>
+
+       <!-- items -->
+   	   <div class="Cart-Items">
+   	   	  <div class="image-box">
+   	   	  	<img src="assets/rouge.jpg"/>
+   	   	  </div>
+   	   	  <div class="about">
+   	   	  	<h1 class="title"><a href="./productChoice/red/index.html">Red Pen</a></h1>
+   	   	  	<h3 class="subtitle">Premium</h3>
+   	   	  </div>
+   	   	  <div class="counter">
+   	   	  	<div class="btn">+</div>
+   	   	  	<div class="count">2</div>
+   	   	  	<div class="btn">-</div>
+   	   	  </div>
+   	   	  <div class="prices">
+   	   	  	<div class="amount">2$</div>
+   	   	  	<div class="save"><u>Save for later</u></div>
+   	   	  	<div class="remove"><u>Remove</u></div>
+   	   	  </div>
+   	   </div>
+
+   	   <div class="Cart-Items pad">
+   	   	  <div class="image-box">
+   	   	  	<img src="assets/Crayon.jpg"/>
+   	   	  </div>
+   	   	  <div class="about">
+   	   	  	<h1 class="title"><a href="./productChoice/pencil/index.html">Pencil</a></h1>
+   	   	  	<h3 class="subtitle">Classic</h3>
+   	   	  </div>
+   	   	  <div class="counter">
+   	   	  	<div class="btn">+</div>
+   	   	  	<div class="count">1</div>
+   	   	  	<div class="btn">-</div>
+   	   	  </div>
+   	   	  <div class="prices">
+   	   	  	<div class="amount">1$</div>
+   	   	  	<div class="save"><u>Save for later</u></div>
+   	   	  	<div class="remove"><u>Remove</u></div>
+   	   	  </div>
+   	   </div>
+
+       
+       <!-- gros bouton -->
+   	 <hr> 
+   	 <div class="checkout">
+   	 <div class="total">
+   	 	<div>
+   	 		<div class="Subtotal">Sub-Total</div>
+   	 		<div class="items">2 items</div>
+   	 	</div>
+   	 	<div class="total-amount">5$</div>
+   	 </div>
+   	 <button class="button">Checkout</button></div>
+   </div>
+  </main>
+</body>
+
+
+</html>
