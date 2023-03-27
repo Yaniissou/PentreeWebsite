@@ -20,21 +20,21 @@ body {
 footer {
   padding-top: 30px;
   background-color: #292c2f;
-  color: #bbb;
+  color: #000000;
 }
 
 footer a {
-  color: #999;
+  color: #000000;
   text-decoration:none;
 }
 
 footer img{
     height: 52px;
-    width: 60;
+    width: 65px;
 }
 
 footer a:hover, footer a:focus {
-  color: #aaa;
+  color: #000000;
   text-decoration:none;
   border-bottom:1px dotted #999;
 }
@@ -44,7 +44,7 @@ footer .form-control {
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
     border: none;
     resize: none;
-    color: #d1d2d2;
+    color: #000000;
     padding: 0.7em 1em;
 }
 
