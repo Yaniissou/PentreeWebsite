@@ -1,5 +1,5 @@
 ﻿# PentreeWebsite
-T'as les cranté ?
+T'as les cranptés ?
 Apanian !! 😂😂🤣🤣🤣🤣😂😂😂❗❗
 
 ## Authors
