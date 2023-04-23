@@ -6,7 +6,7 @@ Apanian !! 😂😂🤣🤣🤣🤣😂😂😂❗❗
 
 - [Yanis Harkati](https://www.github.com/yaniissou)
 - [Gabriel Schaal](https://www.github.com/Fayhild)
-- [Rachel Peretti](https://github.com/lyn3nd)
+- [Rachel Peretti](https://github.com/lynirl)
 - [Ilan Darmon](https://github.com/Ilandrm)
 
 https://yaniissou.github.io/PentreeWebsite/
